@@ -138,7 +138,7 @@ body{
 
 #hero .content{
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     align-items: center;
     transform: translate(-50%,-50%);
@@ -180,37 +180,35 @@ text-align: center;
             text-align: center;
         }
 
-    #hero .content form{
+  
+
+    #hero .container {
+        margin: 200px auto;
+        background: #fff;
+        height: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
         display: flex;
-        width: 100%;
-    }
-
-    #hero .content input{
-     height: 3.125rem;
-     padding: 0 1.25em;
-     font-size: 14px;
-     width: 100%;
-     border: 1px solid transparent;
-     border-radius: 40px;
-     outline: none;
-     border-top-right-radius: 0 ;
-     border-bottom-right-radius: 0;
-    }
-
-    #hero .content input::placeholder {
-        text-align: center;
-    }
-
-
-    #hero .content button{ 
-        background-color: hsl(227, 76%, 27%) ;
-        color: #fff;
-        white-space: nowrap;
-        width: 30%;
-        border-radius: 40px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }
+        align-items: center;
+        cursor: pointer;
+        transition: 0.8s;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+      }
+      #hero .container:hover .input {
+        width: 400px;
+      }
+      #hero .container .input {
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 0px;
+        font-weight: 500;
+        font-size: 16px;
+        transition: 0.8s;
+      }
+      #hero .container .btn .fas {
+        color: hsl(143, 75%, 27%);
+      }
 
     #hero1{
         width: 100%;
