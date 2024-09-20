@@ -10,14 +10,14 @@
 </head>
 <body>
     <section id="header">
-        <img src="images/logo-no-background.png" class="logo">
+        <img src="images/logo.png" class="logo">
        <div>
         <ul id="nav-bar" >
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li id=""><a href="Login.html" id="lg-bag"><i class="fa fa-user-circle" ></i></a></li>
+            <li><a class="active" href="main.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="sproduct.html">Blog</a></li>
+            <li id=""><a href="index.html" id="lg-bag"><i class="fa fa-user-circle" ></i></a></li>
 
             <a href="#" id="close"><i class="far fa-times" aria-hidden="true"></i></a>
 
@@ -25,7 +25,7 @@
         
         </div>
         <div id="mobile">
-            <a href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+            <a href="index.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
 
             <i id="bar" class="fas fa-outdent"></i>
 
@@ -54,10 +54,34 @@
         
 
     </section>
+    <section class="features">
+    
+        <div class="row r1">
+            <div class="text-col">
+                <h2>Get</h2>
+                <h3>Luxury at your fingertips better still your doorstep.</h3>
+            </div>
+            <div class="img-col">
+                <img src="images/f1.jpg" alt="">
+            </div>
+        </div>
+    
+    
+    
+        <div class="row r2">
+            <div class="img-col">
+                <img src="images/f2.jpg" alt="">
+            </div>
+            <div class="text-col">
+                <h2>Indulge Yourself</h2>
+                <h3>Free Shipping on First Order.</h3>
+            </div>
+        </div>
+    </section>
 
     <footer class="section-p1">
         <div class="col">
-            <img class="logo"  src="images/logo-no-background.png" alt="">
+            <img class="logo"  src="images/logo.png" alt="">
             <h4>Contact</h4>
             <P><strong>Address:</strong> 5 Brown Road, Street 1, California</P>
             <P><strong>Phone:</strong> +234 906 4818 729</P>
@@ -89,7 +113,7 @@
 
         <div class="col">
             <h4>My Account</h4>
-            <a href="#">Sign In</a>
+            <a href="index.html">Sign In</a>
             <a href="#">View Cart</a>
             <a href="#">My Wishlist</a>
             <a href="#">Track My Order</a>
@@ -130,23 +154,7 @@
                 nav.classList.remove('active');
             })
         }
-                var LoginForm = document.getElementById("LoginForm");
-                var RegForm = document.getElementById("RegForm");
-                var Indicator = document.getElementById("Indicator");
-            
-                function register(){
-                    RegForm.style.transform = "translateX(0px)";
-                    LoginForm.style.transform = "translateX(0px)";
-                    Indicator.style.transform = "translateX(100px)";
-                }
-            
-                function login(){
-                    RegForm.style.transform = "translateX(300px)";
-                    LoginForm.style.transform = "translateX(300px)";
-                    Indicator.style.transform = "translateX(0px)";
-            
-                }
-            
+              
             </script>
            
 

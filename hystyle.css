@@ -308,7 +308,7 @@ text-align: center;
         left: 0;
     }
     #LoginForm button:hover{
-        background-color: #088178;
+        background-color: hsl(143, 75%, 27%)    ;
         color: #fff;
         transition: 0.03s;
       }
@@ -326,27 +326,7 @@ text-align: center;
         color: #555;
     }
 
-    #RegForm{
-        left: -300px;
-    }
-    #RegForm button:hover{
-        background-color: #088178;
-        color: #fff;
-        transition: 0.03s;
-      }
-     #hero1 form a{
-        font-size: 12px;
-     }
-
-     #Indicator{
-        width: 100px;
-        border: none;
-        background: hsl(227, 76%, 27%);
-        height: 3px;
-        margin-top: 8px;
-        transform: translateX(100px);
-        transition: transform 1s;
-    }
+    
     .features{
         font-size: 22px;
         /* padding: 50px 12%; */ 
@@ -416,7 +396,7 @@ text-align: center;
       footer h4{
         font-size: 14px;
         padding-bottom: 20px;
-        color: #088178;
+        color: hsl(143, 75%, 27%);
       }
       
       footer p{
@@ -450,7 +430,7 @@ text-align: center;
       
       footer .install .row img{
       
-        border: 1px solid #088178;
+        border: 1px solid hsl(143, 75%, 27%);
         border-radius: 6px;
       }
       
@@ -464,7 +444,7 @@ text-align: center;
       footer .follow i:hover,
       footer a:hover{
       
-          color: #088178;
+          color: hsl(143, 75%, 27%);
       } 
 
 
@@ -510,7 +490,7 @@ text-align: center;
           }
 
           #mobile i {
-            color:#088178;
+            color:hsl(143, 75%, 27%);
             font-size: 24px;
             padding-left: 20px;
           }
@@ -520,7 +500,7 @@ text-align: center;
             position: absolute;
             top: 30px;
             left: 30px;
-            color: #088178;
+            color: hsl(143, 75%, 27%);
             font-size: 24px;
           }
           #hero{
